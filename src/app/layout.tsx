@@ -10,7 +10,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     return (
         <html lang="ru">
         <body>
-        {/* Общая шапка (header), навигация, футер и т.п. */}
         <header className="p-4 bg-gray-100 border-b">
             <nav>
                 <ul className="flex gap-4">
